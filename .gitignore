@@ -1,0 +1,14 @@
+# Power BI: archivos locales que no se versionan
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Datos generados por el ETL: se regeneran desde etl/
+data/bronze/*
+data/silver/*
+data/gold/*
+
+# Entorno virtual de Python
+.venv/
+
+# Temporales de Office (archivos abiertos en Excel o Word)
+~$*
